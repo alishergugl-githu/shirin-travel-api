@@ -45,7 +45,6 @@ function App() {
         <Route path="/booking" element={<Booking language={language} />} />
         <Route path="/payment" element={<Payment language={language} />} />
         <Route path="/admin" element={<Admin />} />
-        <Route path="/payment" element={<Payment />} />
       </Routes>
 
       <Footer language={language} />
